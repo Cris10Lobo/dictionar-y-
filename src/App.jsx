@@ -2,11 +2,9 @@ import React from 'react';
 import axios from 'axios';
 import './App.styles.css';
 import { useEffect, useState } from 'react';
-import { Container, Button } from '@material-ui/core';
+import { Container } from '@material-ui/core';
 import Header from './components/Header/Header';
 import Definitions from './components/Definitions/Definitions';
-import categories from './data/category';
-import GitHubIcon from '@material-ui/icons/GitHub';
 
 function App() {
   const [word, setWord] = useState('');

@@ -6,7 +6,6 @@ import {
   TextField,
   ThemeProvider,
   MenuItem,
-  Button,
 } from '@material-ui/core';
 
 const Header = ({ setCategory, category, word, setWord }) => {
