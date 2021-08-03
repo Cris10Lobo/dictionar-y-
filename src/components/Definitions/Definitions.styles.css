@@ -1,0 +1,22 @@
+.meanings {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  height: 55vh;
+  padding: 8px 20px;
+  overflow-x: hidden;
+  border-bottom: 2px solid #d580ff;
+}
+
+.subTitle {
+  font-size: 2vw;
+}
+
+@media (max-width: 900px) {
+  .meanings {
+    height: 70vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}
